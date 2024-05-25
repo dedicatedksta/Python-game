@@ -358,6 +358,7 @@ def main():
                 shields.empty()
                 boss_spawned = False  
                 boss_respawn_time = 0
+                restart_game()
                 player.rect.center = (WIDTH // 2, HEIGHT - 30)
 
             pygame.display.update()
